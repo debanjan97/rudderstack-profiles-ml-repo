@@ -1,0 +1,21 @@
+2024-04-22T10:06:42.087+0530	ERROR	run/run.go:77	creating project api: loading project: could not create project: failed to read project yaml 
+Error: checking pb version support: error checking python_requirements constraint: exit status 1
+
+2024-04-22T10:07:27.510+0530	ERROR	run/run.go:77	creating project api: loading project: could not create project: failed to read project yaml 
+Error: checking pb version support: error checking python_requirements constraint: exit status 1
+
+2024-04-22T10:10:38.614+0530	ERROR	run/run.go:77	creating project api: loading project: could not create project: failed to read project yaml 
+Error: checking pb version support: error checking python_requirements constraint: exit status 1
+
+2024-04-22T10:10:43.255+0530	ERROR	run/run.go:77	creating project api: loading project: could not create project: failed to read project yaml 
+Error: checking pb version support: error checking python_requirements constraint: exit status 1
+
+2024-04-22T10:10:48.994+0530	ERROR	compile/compile.go:55	creating project api: loading project: could not create project: failed to read project yaml 
+Error: checking pb version support: error checking python_requirements constraint: exit status 1
+
+2024-04-22T10:19:47.015+0530	ERROR	show/models.go:43	creating project api: loading project: could not create project: failed to read project yaml 
+Error: this version of PB works with schema version 54, got 61. please upgrade pb
+
+2024-04-22T10:20:02.344+0530	ERROR	show/models.go:44	creating project api: loading project: could not create project: failed to read project yaml 
+Error: checking pb version support: error checking python_requirements constraint: exit status 1
+

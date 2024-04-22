@@ -1,0 +1,33 @@
+name: generated_project
+schema_version: 61
+connection: test
+model_folders:
+    - models
+entities:
+    - name: user
+      feature_views:
+        using_ids:
+            - id: user_id
+            - id: anonymous_id
+            - id: email
+            - id: cart_token
+            - id: user_main_id
+      hooks:
+        pre_run: ""
+        post_run: ""
+python_requirements:
+    - profiles-rudderstack==0.12.*
+packages:
+    - name: base_features
+      url: https://github.com/rudderlabs/profiles-multieventstream-features/tag/schema_{{best_schema_version}}
+      inputsMap:
+        rsIdentifies_1: inputs/rsIdentifies_1
+        rsIdentifies_2: nil
+        rsIdentifies_3: nil
+        rsPages_1: inputs/rsPages_1
+        rsPages_2: nil
+        rsPages_3: nil
+        rsTracks_1: inputs/rsTracks_1
+        rsTracks_2: nil
+        rsTracks_3: nil
+include_untimed: true
