@@ -1,5 +1,5 @@
 name: generated_project
-schema_version: 61
+schema_version: 49
 connection: test
 model_folders:
     - models
@@ -16,7 +16,7 @@ entities:
         pre_run: ""
         post_run: ""
 python_requirements:
-    - profiles-rudderstack==0.12.*
+    - profiles-rudderstack==0.11.*
 packages:
     - name: base_features
       url: https://github.com/rudderlabs/profiles-multieventstream-features/tag/schema_{{best_schema_version}}
